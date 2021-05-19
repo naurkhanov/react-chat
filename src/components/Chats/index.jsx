@@ -28,13 +28,11 @@ function Sidebar() {
     <div className={styles.sidebar}>
       <Search />
       <div className={styles['contacts-chats']}>
-        <ul>
-          {loading
-            ? skeleton
-            : filteredContacts.map((contact) => {
-                return <Contact key={contact._id} contact={contact} />;
-              })}
-        </ul>
+        {loading
+          ? skeleton
+          : filteredContacts.map((contact) => {
+              return <Contact key={contact._id} contact={contact} />;
+            })}
       </div>
     </div>
   );

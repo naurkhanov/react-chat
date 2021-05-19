@@ -180,3 +180,6 @@ span {
 .time-skeleton {
   align-items: center;
 }
+.contacts-chats {
+  display: block;
+}
