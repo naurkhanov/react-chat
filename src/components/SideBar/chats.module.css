@@ -3,7 +3,8 @@
 }
 
 .sidebar {
-  width: 20%;
+  min-width: 310px;
+  max-width: 310px;
   height: 100vh;
   background-color: #ffffff;
   position: relative;
@@ -28,7 +29,7 @@
   display: flex;
 }
 
-.contacts-chats ul li:hover {
+.contacts-chats  li:hover {
   background-color: rgba(232, 243, 248, 0.91);
   align-items: center;
   margin: 5px 0;
@@ -73,7 +74,7 @@
   align-items: center;
   padding: 10px;
   position: absolute;
-  width: 18%;
+  width: 260px;
   top: 15px;
   left: 1%;
   padding-left: 35px !important;

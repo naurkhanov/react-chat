@@ -85,7 +85,7 @@
     overflow-y: scroll;
     background-image: url("smoke.jpg");
     background-size: cover;
-   }
+}
 
 .messageScroll {
     padding: 0 4%;
@@ -115,16 +115,16 @@
 }
 
 .messageSendForm input {
-  width: 100%;
-  padding: 10px 10px;
-  border: none;
-  border-radius: 5px;
-  outline: none;
-  align-items: center;
-  font-size: 16px;
-  color: #808080;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 300;
+    width: 100%;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    align-items: center;
+    font-size: 16px;
+    color: #808080;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
 }
 
 .messageWriteRightBlock {
@@ -195,7 +195,7 @@
     left: 75%;
     bottom: 10%;
     font-size: 8px;
-    }
+}
 
 .messageRead {
     left: 90%;
